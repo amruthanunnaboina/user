@@ -1,0 +1,130 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .profile-button {
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .profile-button img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 200px; 
+    right: 200px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    transition: all 0.3s ease;
+  }
+  
+  
+  
+  .dropdown-option {
+    padding: 10px;
+    color: #333;
+    text-align: left; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .dropdown-option:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  
+  .content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    margin: 10px 0;
+  }
+  
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+.dropdown input[type="file"] {
+    display: none;
+  }
+  
+ 
+  .dropdown label {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 14px; 
+  }
+  
+ 
+  .dropdown label:hover {
+    background-color: #0056b3;
+  }
+  
+  
+.dashboard.dark-mode {
+    background-color: #121212; 
+    color: white;
+  }
+  
+ 
+  .content {
+    background-color: white; 
+    color: black; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark-card {
+    background-color: #1e1e1e;
+    color: white; 
+    border: 1px solid #333;
+  }
+  
